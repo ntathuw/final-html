@@ -1,0 +1,61 @@
+/* Bài 1 - Me! */
+
+body {
+  margin: 0;
+  padding: 16px;
+  background-color: #ffffff;
+  font-family: "Times New Roman", Times, serif;
+}
+
+/* Khối tiêu đề nền hồng */
+.poem__header {
+  background-color: #ffccff;
+  padding: 18px 0;
+}
+
+.poem__title {
+  margin: 0;
+  text-align: center;
+  color: #ff0099;
+  font-size: 32px;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+/* Khối thân bài nền vàng nhạt */
+.poem__body {
+  margin-top: 16px;
+  background-color: #ffffcc;
+  padding: 20px 0;
+}
+
+.poem__stanza {
+  text-align: center;
+  font-style: italic;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.poem__stanza p {
+  margin: 0;
+}
+
+.poem__stanza--blue {
+  color: #0000ff;
+}
+
+.poem__stanza--purple {
+  color: #990099;
+}
+
+.poem__stanza--green {
+  color: #009900;
+}
+
+/* Đường kẻ ngăn giữa các khổ thơ */
+.poem__divider {
+  width: 320px;
+  margin: 18px auto;
+  border: none;
+  border-top: 1px solid #999999;
+}
