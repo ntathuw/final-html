@@ -1,0 +1,56 @@
+/* Bài 3 - Định dạng văn bản */
+
+body {
+  margin: 0;
+  background-color: #ffffff;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 16px;
+}
+
+/* Block: demo - cột nội dung rộng 664px, căn giữa trang */
+.demo {
+  width: 664px;
+  margin: 0 auto;
+  padding: 60px 0;
+}
+
+.demo__title {
+  margin: 0 0 34px;
+  text-align: center;
+  color: #00cc00;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.demo__item {
+  margin: 0 0 22px;
+  line-height: 1.4;
+}
+
+/* Nhãn môn học: in đậm và gạch chân */
+.demo__label {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+/* Tên khái niệm: in nghiêng */
+.demo__term {
+  font-style: italic;
+}
+
+/* Công thức: chữ đỏ, chỉ số dưới/trên dùng thẻ sub/sup */
+.demo__formula {
+  color: #ff0000;
+}
+
+/* Khối mã nguồn: giữ nguyên xuống dòng và khoảng trắng */
+.demo__code {
+  margin: 22px 0 0;
+  padding: 14px 0 14px 60px;
+  background-color: #cccccc;
+  color: #0000ff;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 13px;
+  line-height: 2.3;
+  tab-size: 8;
+}

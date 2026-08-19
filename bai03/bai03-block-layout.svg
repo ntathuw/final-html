@@ -1,0 +1,109 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="810" viewBox="0 0 1040 810" font-family="Inter, Arial, Helvetica, sans-serif">
+
+  <rect width="1040" height="810" fill="#FFFFFF"/>
+
+  <text x="40" y="42" font-size="22" font-weight="700" fill="#111827">Bài 3 — Định dạng văn bản</text>
+  <text x="40" y="66" font-size="13" fill="#6B7280">Block layout · quy ước đặt tên BEM</text>
+
+  <!-- ROOT -->
+  <g id="body">
+    <rect x="40" y="90" width="960" height="590" rx="4" fill="#FAFAFA" stroke="#9CA3AF" stroke-width="1.5" stroke-dasharray="6 4"/>
+    <text x="54" y="112" font-size="12" font-weight="600" fill="#6B7280">body</text>
+  </g>
+
+  <!-- BLOCK -->
+  <g id="demo">
+    <rect x="180" y="130" width="680" height="510" rx="6" fill="#EEF2FF" stroke="#4F46E5" stroke-width="2"/>
+    <text x="196" y="152" font-size="14" font-weight="700" fill="#3730A3">.demo</text>
+    <text x="850" y="152" font-size="11" fill="#6366F1" text-anchor="end">BLOCK · div · width 664px · margin 0 auto</text>
+  </g>
+
+  <!-- ELEMENT: title -->
+  <g id="demo__title">
+    <rect x="204" y="168" width="632" height="54" rx="4" fill="#F0FDF4" stroke="#16A34A" stroke-width="1.5"/>
+    <text x="218" y="192" font-size="13" font-weight="600" fill="#15803D">.demo__title</text>
+    <text x="822" y="192" font-size="11" fill="#4D7C0F" text-anchor="end">h1 · #00cc00 · 28px · center</text>
+  </g>
+
+  <!-- ELEMENT: item 1 -->
+  <g id="demo__item-1">
+    <rect x="204" y="238" width="632" height="82" rx="4" fill="#F0FDF4" stroke="#16A34A" stroke-width="1.5"/>
+    <text x="218" y="260" font-size="13" font-weight="600" fill="#15803D">.demo__item</text>
+    <text x="822" y="260" font-size="11" fill="#4D7C0F" text-anchor="end">p</text>
+    <g id="demo__label-1">
+      <rect x="218" y="272" width="132" height="34" rx="3" fill="#FFF7ED" stroke="#EA580C" stroke-width="1.5"/>
+      <text x="230" y="294" font-size="12" fill="#9A3412">.demo__label</text>
+    </g>
+    <g id="demo__term-1">
+      <rect x="362" y="272" width="132" height="34" rx="3" fill="#FFF7ED" stroke="#EA580C" stroke-width="1.5"/>
+      <text x="374" y="294" font-size="12" fill="#9A3412">.demo__term</text>
+    </g>
+    <g id="demo__formula-1">
+      <rect x="506" y="272" width="150" height="34" rx="3" fill="#FFF7ED" stroke="#EA580C" stroke-width="1.5"/>
+      <text x="518" y="294" font-size="12" fill="#9A3412">.demo__formula</text>
+    </g>
+    <g id="demo__formula-1b">
+      <rect x="668" y="272" width="150" height="34" rx="3" fill="#FFF7ED" stroke="#EA580C" stroke-width="1.5"/>
+      <text x="680" y="294" font-size="12" fill="#9A3412">.demo__formula</text>
+    </g>
+  </g>
+
+  <!-- ELEMENT: item 2 -->
+  <g id="demo__item-2">
+    <rect x="204" y="336" width="632" height="82" rx="4" fill="#F0FDF4" stroke="#16A34A" stroke-width="1.5"/>
+    <text x="218" y="358" font-size="13" font-weight="600" fill="#15803D">.demo__item</text>
+    <text x="822" y="358" font-size="11" fill="#4D7C0F" text-anchor="end">p</text>
+    <g id="demo__label-2">
+      <rect x="218" y="370" width="132" height="34" rx="3" fill="#FFF7ED" stroke="#EA580C" stroke-width="1.5"/>
+      <text x="230" y="392" font-size="12" fill="#9A3412">.demo__label</text>
+    </g>
+    <g id="demo__term-2">
+      <rect x="362" y="370" width="132" height="34" rx="3" fill="#FFF7ED" stroke="#EA580C" stroke-width="1.5"/>
+      <text x="374" y="392" font-size="12" fill="#9A3412">.demo__term</text>
+    </g>
+    <g id="demo__formula-2">
+      <rect x="506" y="370" width="150" height="34" rx="3" fill="#FFF7ED" stroke="#EA580C" stroke-width="1.5"/>
+      <text x="518" y="392" font-size="12" fill="#9A3412">.demo__formula</text>
+    </g>
+  </g>
+
+  <!-- ELEMENT: item 3 -->
+  <g id="demo__item-3">
+    <rect x="204" y="434" width="632" height="82" rx="4" fill="#F0FDF4" stroke="#16A34A" stroke-width="1.5"/>
+    <text x="218" y="456" font-size="13" font-weight="600" fill="#15803D">.demo__item</text>
+    <text x="822" y="456" font-size="11" fill="#4D7C0F" text-anchor="end">p</text>
+    <g id="demo__label-3">
+      <rect x="218" y="468" width="132" height="34" rx="3" fill="#FFF7ED" stroke="#EA580C" stroke-width="1.5"/>
+      <text x="230" y="490" font-size="12" fill="#9A3412">.demo__label</text>
+    </g>
+    <g id="demo__term-3">
+      <rect x="362" y="468" width="132" height="34" rx="3" fill="#FFF7ED" stroke="#EA580C" stroke-width="1.5"/>
+      <text x="374" y="490" font-size="12" fill="#9A3412">.demo__term</text>
+    </g>
+  </g>
+
+  <!-- ELEMENT: code -->
+  <g id="demo__code">
+    <rect x="204" y="532" width="632" height="86" rx="4" fill="#F0FDF4" stroke="#16A34A" stroke-width="1.5"/>
+    <text x="218" y="556" font-size="13" font-weight="600" fill="#15803D">.demo__code</text>
+    <text x="822" y="556" font-size="11" fill="#4D7C0F" text-anchor="end">pre · #0000ff on #cccccc · padding-left 60px</text>
+    <text x="218" y="592" font-size="11" fill="#6B7280">giữ nguyên xuống dòng + tab · &lt; và &gt; phải viết &amp;lt; &amp;gt;</text>
+  </g>
+
+  <!-- LEGEND -->
+  <g id="legend">
+    <text x="40" y="716" font-size="13" font-weight="700" fill="#111827">Chú thích</text>
+
+    <rect x="40" y="730" width="20" height="20" rx="3" fill="#EEF2FF" stroke="#4F46E5" stroke-width="2"/>
+    <text x="70" y="745" font-size="12" fill="#374151">Block — đứng độc lập, tên tự thân: <tspan font-weight="700">.demo</tspan></text>
+
+    <rect x="380" y="730" width="20" height="20" rx="3" fill="#F0FDF4" stroke="#16A34A" stroke-width="1.5"/>
+    <text x="410" y="745" font-size="12" fill="#374151">Element — chỉ sống trong block: <tspan font-weight="700">.demo__title</tspan></text>
+
+    <rect x="720" y="730" width="20" height="20" rx="3" fill="#FFF7ED" stroke="#EA580C" stroke-width="1.5"/>
+    <text x="750" y="745" font-size="12" fill="#374151">Element lồng trong <tspan font-weight="700">.demo__item</tspan></text>
+
+    <text x="40" y="782" font-size="12" fill="#6B7280">Bài 3 không có modifier. BEM không lồng element: viết <tspan font-family="monospace" fill="#15803D">.demo__label</tspan> chứ không phải <tspan font-family="monospace" fill="#B91C1C">.demo__item__label</tspan>.</text>
+  </g>
+
+</svg>
